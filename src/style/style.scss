@@ -1,0 +1,16 @@
+$background-color: salmon;
+$primary-color: olive;
+$sub-color: darkolivegreen;
+
+$img-size: 20px;
+
+body {
+    background: $background-color;
+    color: $primary-color;
+    text-shadow: -2px 0 $sub-color, 0 2px $sub-color, 2px 0 $sub-color, 0 -2px $sub-color;
+}
+
+img {
+    width: $img-size;
+    padding-left: $img-size * 4;
+}

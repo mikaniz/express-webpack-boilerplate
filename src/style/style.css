@@ -1,0 +1,5 @@
+div {
+    width: fit-content;
+    border-left: 3px solid tomato;
+    border-right: 3px solid tomato;
+}
